@@ -68,4 +68,6 @@ class Solution(object):
                 q.popleft()
             if i>=k-1:
                 res.append(nums[q[0]])
-        return res    
+        return res
+        
+
